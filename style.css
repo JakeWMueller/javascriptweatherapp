@@ -1,0 +1,79 @@
+:root{
+    --mainBackground: linear-gradient(to top, skyblue, lightblue, white);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#heading{
+    text-align: center;
+    padding: 10px;
+}
+
+#footer{
+    background-image: skyblue;
+}
+
+#body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: var(--mainBackground);
+}
+
+.input{
+    text-align: center;
+    margin: 100px auto;
+}
+
+.input input[type="text"]{
+    height: 50px;
+    width: 600px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background: #e7e7e7;
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card{
+    width: 50%;
+    background-color: var(--mainBackground);
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card h1{
+    padding: 5px 0;
+    text-align: center;
+}
+
+.card p{
+    text-align: center;
+    margin: 40px 0;
+    font-size: 20px;
+}
+
+.close{
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-right: 20px;
+}
